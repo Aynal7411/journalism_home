@@ -1,0 +1,22 @@
+body {
+  background-color: #32fafa;
+
+
+
+}
+
+footer {
+    background-color: rgb(177, 83, 127);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: rgb(32, 24, 24);
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    border-top: 2px solid #000;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+
+}
