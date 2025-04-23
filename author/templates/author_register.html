@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Author Registration{% endblock %}
+
+{% block content %}
+  <h2 class="text-align center">Fill up This Form using Your informations.</h2>
+ 
+    <form method="POST" class="text-center">
+        <!-- {% csrf_token %} is a security measure to prevent Cross-Site Request Forgery attacks. -->
+        {% csrf_token %}
+        {{ form.as_p }}
+
+      <button class="btn btn-primary w-50 rounded-pill" type="submit"> Now Join</button>
+    </form>
+
+{% endblock %}

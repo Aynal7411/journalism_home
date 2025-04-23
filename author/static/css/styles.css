@@ -5,6 +5,37 @@ body {
 
 }
 
+button.btn-primary {
+  background-color: #e2168d; /* Green */
+  border: none;
+  color: #b4e40a;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button.btn-primary:hover {
+  background-color: lab(6.87% 0.45 0.16); /* Darker green */
+  color: hsl(325, 19%, 88%);
+}
+
+h2 {
+  color: brown;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+form {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
 footer {
     background-color: rgb(177, 83, 127);
     position: fixed;

@@ -25,11 +25,11 @@ SECRET_KEY = "django-insecure-f0!78_d1vnxv*d-*)2et7d+dwox2_7z132fyiv=c0q&ce9mxrv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+AUTH_USER_MODEL = "author.CustomUser"
 
 # Application definition
-
+CSRF_TRUSTED_ORIGINS = ["http://localhost:8000", "https://localhost:8000"]
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "author",
+    "bootstrap5",
 ]
 
 MIDDLEWARE = [
